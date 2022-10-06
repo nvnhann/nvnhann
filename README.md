@@ -7,7 +7,7 @@
 I'm graduated an engineer in information technology from Can Tho University 
 
 <div style="margin: 0 auto;">
-   <img src="./i1.jpg" alt="Nguyễn Văn Nhẫn" style="height: 30rem; border-radius: 10px" />
+   <img src="./i1.jpg" alt="Nguyễn Văn Nhẫn" style="height: 30rem;max-width: 100%;border-radius: 10px;" />
  </div>
 
 ## Skills
