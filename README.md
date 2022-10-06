@@ -3,7 +3,10 @@
 </h1>
 
 ## Hey! 👋
-I'm , a Nhan
+
+I'm graduated an engineer in information technology from Can Tho University 
+
+ <img src="./i1.jpg" alt="Nguyễn Văn Nhẫn" />
 
 ## Skills
 - 👨‍💻 TypeScript, JavaScript, PHP, Python, C, Java, NodeJS
