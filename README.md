@@ -6,7 +6,9 @@
 
 I'm graduated an engineer in information technology from Can Tho University 
 
- <img src="./i1.jpg" alt="Nguyễn Văn Nhẫn" />
+<div style="margin: 0 auto;">
+   <img src="./i1.jpg" alt="Nguyễn Văn Nhẫn" style="height: 30rem; border-radius: 10px" />
+ </div>
 
 ## Skills
 - 👨‍💻 TypeScript, JavaScript, PHP, Python, C, Java, NodeJS
