@@ -12,7 +12,7 @@ I'm graduated an engineer in information technology from Can Tho University
 
 ## Skills
 - 👨‍💻 TypeScript, JavaScript, PHP, Python, C, Java, NodeJS
-- ⚙️ React, Svelte, Vue
+- ⚙️ React
 - 👁️ SCSS, CSS
 - 💽 MySQL, SQL, Oracle
 
