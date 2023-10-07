@@ -1,51 +1,50 @@
-<h1 align="center">
-  <img src="./name.svg" alt="Nguyễn Văn Nhẫn" />
-</h1>
+# Nguyen Van Nhan 👨‍💻
 
-## Hey! 👋
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=zhenye-na.zhenye-na)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+### Full-Stack Developer
 
-I'm graduated an engineer in information technology from Can Tho University 
+---
 
-# Hello there 👋
+🔭 **Tech Stack**: 
 
+- **Languages**: PHP, Python, Java, C/C++, HTML/CSS, JavaScript, Shell
+- **Tools & Technologies**: Docker, Machine Learning, MySQL, Oracle, VSCode, Luccid Chart, CI/CD, Git, Data Exchange, Data Scientist, Linux (Ubuntu, Centos)
+- **Platforms**: Docker
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+---
 
+📖 **Bio**:
 
-class InformationTechnologyEngineer:
+In the process of growing up and self-improvement, I have constantly embraced many wonderful things through reading books or having conversations with people around me. Each person is a unique world in terms of their work, thinking style, and different attitudes towards life. However, I have come to realize that as long as you know how to listen and ask the right questions at the right time, you will discover many valuable things for yourself.
 
-    def __init__(self):
-        self.name = "Nhan"
-        self.role = "Developer"
+---
 
-    def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+🌐 **Connect with me**:
 
+[![Email](https://img.shields.io/badge/Email-nvnhan.dev%40gmail.com-blue)](mailto:nvnhan.dev@gmail.com)
+[![Facebook](https://img.shields.io/badge/Facebook-%40nvnhan.dev-blue?logo=facebook)](https://www.facebook.com/nvnhan.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%40nhan--nguyen--446288268-blue?logo=linkedin)](https://www.linkedin.com/in/nhan-nguyen-446288268/)
+[![Instagram](https://img.shields.io/badge/Instagram-%40nhannv00-blue?logo=instagram)](https://www.instagram.com/nhannv00/)
+[![Medium](https://img.shields.io/badge/Medium-%40nvnhan.dev-blue?logo=medium)](https://medium.com/@nvnhan.dev)
 
-me = InformationTechnologyEngineer()
-me.say_hi()
-```
+---
 
-## 🔧 Technologies & Tools
+🌟 **Projects**:
 
-![](https://img.shields.io/badge/OS-Linux-informationalOS-Linux-informational?style=flat&logo=linux&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Editor-VS_Code-informational?style=flat&logo=visual-studio-code&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=javascript&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Code-React-informational?style=flat&logo=react&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=6aa6f8)
-![](https://img.shields.io/badge/Tools-Docker-informational?style=flat&logo=docker&logoColor=white&color=6aa6f8)
+- **[Image Classifier Project](https://github.com/nvnhann/AI-Create-Your-Own-Image-Classifier)**: This project allows you to create and train your own image classifier using PyTorch
 
-## Skills
-- 👨‍💻 TypeScript, JavaScript, PHP, Python, C, Java, NodeJS
-- ⚙️ React
-- 👁️ SCSS, CSS
-- 💽 MySQL, SQL, Oracle
+- **[Give your Application Auto-Deploy Superpowers](hhttps://github.com/nvnhann/Deploy-a-high-availability-web-app-using-CloudFormation)**: Explain the fundamentals and benefits of CI/CD to achieve, build, and deploy automation for cloud-based software products.
 
-## Contact
-- [Nhẫn](https://www.facebook.com/nvnhan.dev) on Facebook
-- [nvnhan.dev](https://www.instagram.com/nvnhan.dev/) on Instagram
+- **[Give your Application Auto-Deploy Superpowers](https://github.com/nvnhann/Operationalize-a-Machine-Learning-Microservice-API)**: In this project will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API
+
+---
+
+❓ **Ask me about**: Full Stack Development, Docker, Machine Learning, or any tech-related stuff.
+
+💬 **Fun Fact**: I believe in the power of the right questions!
+
+---
+
+📈 **GitHub Stats**:
+
+[![Nguyen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nvnhann)](https://github.com/YourGitHubUsername)
+
