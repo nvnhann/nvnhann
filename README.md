@@ -46,5 +46,5 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 
 📈 **GitHub Stats**:
 
-[![Nguyen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nvnhann)](https://github.com/YourGitHubUsername)
+[![Nguyen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nvnhann)](https://github.com/nvnhann)
 
