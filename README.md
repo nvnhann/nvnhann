@@ -32,7 +32,7 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 
 - **[Image Classifier Project](https://github.com/nvnhann/AI-Create-Your-Own-Image-Classifier)**: This project allows you to create and train your own image classifier using PyTorch
 
-- **[Give your Application Auto-Deploy Superpowers](hhttps://github.com/nvnhann/Deploy-a-high-availability-web-app-using-CloudFormation)**: Explain the fundamentals and benefits of CI/CD to achieve, build, and deploy automation for cloud-based software products.
+- **[Give your Application Auto-Deploy Superpowers](https://github.com/nvnhann/Deploy-a-high-availability-web-app-using-CloudFormation)**: Explain the fundamentals and benefits of CI/CD to achieve, build, and deploy automation for cloud-based software products.
 
 - **[Operationalize-a-Machine-Learning-Microservice-API](https://github.com/nvnhann/Operationalize-a-Machine-Learning-Microservice-API)**: In this project will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API
 
