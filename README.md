@@ -53,41 +53,41 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 ### Udacity - 2023
 
 <div style="display: flex">
-    <img src="images/ai.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/aws_cloud_architect.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/ai.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/aws_cloud_architect.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/aws_cloud_devoops.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/cloud.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/aws_cloud_devoops.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/cloud.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/ds.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/fe.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/ds.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/fe.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/intro.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/java.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/intro.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/java.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/javascript.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/python.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/javascript.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/python.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/pytorch.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/tf.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/pytorch.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/tf.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/react.png" alt="Image 1" style="display: inline-block; width: 50%"/>
-    <img src="images/AZ.png" alt="Image 2" style="display: inline-block; width: 50%"/>
+    <img src="images/react.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/AZ.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
-    <img src="images/DA.png" alt="Image 1" style="display: inline-block; width: 50%"/>
+    <img src="images/DA.png" alt="Image 1" style="display: inline-block; width: 49%"/>
 </div>
 
