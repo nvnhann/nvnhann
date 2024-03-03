@@ -49,6 +49,11 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 [![Nguyen's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nvnhann)](https://github.com/nvnhann)
 
 ---
+### Udacity - 2024
+
+<div style="display: flex">
+    <img src="images/de-aws.jpeg" alt="Image 1"/>
+</div>
 
 ### Udacity - 2023
 
