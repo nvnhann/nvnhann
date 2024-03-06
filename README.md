@@ -52,7 +52,8 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 ### Udacity - 2024
 
 <div style="display: flex">
-    <img src="images/de-aws.jpeg" alt="Image 1"/>
+    <img src="images/de-aws.jpeg" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/py-de.png" alt="Image 2" style="display: inline-block; width: 49%"/>
 </div>
 
 ### Udacity - 2023
