@@ -52,7 +52,7 @@ In the process of growing up and self-improvement, I have constantly embraced ma
 ### Udacity - 2024
 
 <div style="display: flex">
-    <img src="images/az-devoops.png" alt="Image 1" style="display: inline-block; width: 49%"/>
+    <img src="images/az-devoop.png" alt="Image 1" style="display: inline-block; width: 49%"/>
 </div>
 
 <div style="display: flex">
