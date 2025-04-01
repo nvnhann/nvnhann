@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard Từ Vựng & Kanji</title>
+  <!-- MDBootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet">
+  <!-- FontAwesome CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+<body>
+  <!-- Responsive Navbar với MDBootstrap -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kiếp nạn Japanese</a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Nội dung Flashcard -->
+  <div class="container mt-4">
+    <h1 class="mt-4">📖 Flashcard Từ Vựng & Kanji</h1>
+    <p>Chế độ: <span id="mode-text">Từ Vựng</span></p>
+    <p>Đã thuộc: <span id="learned-count">0</span> / <span id="total-count"></span></p>
+    <div class="flashcard-container mt-3" onclick="toggleFlip()">
+      <div id="flashcard" class="flashcard">
+        <div class="card-face front" id="front-text"></div>
+        <div class="card-face back" id="back-text"></div>
+      </div>
+    </div>
+    <div class="buttons">
+      <!-- Sử dụng icon FontAwesome thay thế emoji -->
+      <button class="btn btn-primary" onclick="toggleMode()" title="Chuyển giữa Từ Vựng / Kanji">
+        <i class="fas fa-sync-alt"></i>
+        Chuyển giữa Từ Vựng / Kanji
+      </button>
+      <button class="btn btn-success" id="btn-learned" onclick="markLearned()" title="Thuộc">
+        <i class="fas fa-check-circle"></i>
+        Thuộc
+      </button>
+      <button class="btn btn-danger" id="btn-forgotten" onclick="markForgotten()" title="Quên">
+        <i class="fas fa-times-circle"></i>
+        Quên
+      </button>
+      <button class="btn btn-warning" onclick="resetLearning()" title="Học Lại">
+        <i class="fas fa-redo-alt"></i>
+        Học Lại
+      </button>
+    </div>
+  </div>
+
+  <!-- MDBootstrap JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
+  <script>
+    let learnedWords = [];
+    let currentWord = null;
+    let isFlipped = false;
+    let isKanjiMode = true; 
+    let remainingWords = [...words];
+
+    document.getElementById("total-count").innerText = words.length;
+
+    function getRandomWord() {
+      if (remainingWords.length === 0) return null;
+      return remainingWords[Math.floor(Math.random() * remainingWords.length)];
+    }
+
+    function updateCard() {
+      const flashcard = document.getElementById("flashcard");
+
+      if (remainingWords.length === 0) {
+        document.getElementById("front-text").innerHTML = "🎉 Học xong rồi!";
+        document.getElementById("back-text").innerHTML = "Không còn từ mới.";
+        document.getElementById("btn-learned").disabled = true;
+        document.getElementById("btn-forgotten").disabled = true;
+        return;
+      }
+
+      document.getElementById("btn-learned").disabled = false;
+      document.getElementById("btn-forgotten").disabled = false;
+
+      flashcard.classList.add("turn");
+
+      setTimeout(() => {
+        currentWord = getRandomWord();
+        isFlipped = false;
+        flashcard.classList.remove("flip", "turn");
+
+        if (isKanjiMode) {
+          document.getElementById("front-text").innerHTML = currentWord.kanji;
+          document.getElementById("back-text").innerHTML = `${currentWord.hiragana} - ${currentWord.meaning}`;
+        } else {
+          document.getElementById("front-text").innerHTML = currentWord.meaning;
+          document.getElementById("back-text").innerHTML = `${currentWord.kanji} (${currentWord.hiragana})`;
+        }
+
+        flashcard.classList.add("appear");
+        setTimeout(() => {
+          flashcard.classList.remove("appear");
+        }, 500);
+      }, 500);
+    }
+
+    function toggleMode() {
+      isKanjiMode = !isKanjiMode;
+      document.getElementById("mode-text").innerText = isKanjiMode ? "Kanji" : "Từ Vựng";
+      remainingWords = isKanjiMode ? [...kanjiWords] : [...words];
+      document.getElementById("total-count").innerText = remainingWords.length;
+      resetLearning();
+    }
+
+    function toggleFlip() {
+      if (remainingWords.length === 0) return;
+      isFlipped = !isFlipped;
+      document.getElementById("flashcard").classList.toggle("flip");
+    }
+
+    function markLearned() {
+      if (!currentWord) return;
+      if (!learnedWords.includes(currentWord)) {
+        learnedWords.push(currentWord);
+        remainingWords = remainingWords.filter(word => word !== currentWord);
+        document.getElementById("learned-count").innerText = learnedWords.length;
+      }
+      updateCard();
+    }
+
+    function markForgotten() {
+      updateCard();
+    }
+
+    function resetLearning() {
+      learnedWords = [];
+      remainingWords = isKanjiMode ? [...kanjiWords] : [...words];
+      document.getElementById("learned-count").innerText = "0";
+      updateCard();
+    }
+
+    updateCard();
+  </script>
+</body>
+</html>
